@@ -1,0 +1,15 @@
+* SPICE3 file created from ulqc_ldo.ext - technology: sky130A
+
+.subckt ulqc_ldo VSS1 VIN1 VIN2 VIN3 ADJ BGRT1 BGRT2 BGR_OUT EA_OUT VOUT1 VOUT2 VOUT3
++ VSS2 VSS3
+X0 BGR_OUT VSS3 VSS3 VSS1 sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=8.7e+11p ps=7.74e+06u w=1e+06u l=150000u
+X1 VOUT1 BGRT2 VSS1 VSS1 sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X2 VOUT1 BGRT1 VIN1 VIN1 sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X3 VOUT2 ADJ VSS2 VSS1 sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X4 VOUT2 ADJ VIN2 VIN2 sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X5 VSS3 VSS3 VOUT3 VSS1 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X6 VIN3 VIN3 VOUT3 VIN3 sky130_fd_pr__pfet_01v8 ad=8.7e+11p pd=7.74e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X7 EA_OUT VSS3 VSS3 VSS1 sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X8 EA_OUT VIN3 VIN3 VIN3 sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+X9 BGR_OUT VIN3 VIN3 VIN3 sky130_fd_pr__pfet_01v8 ad=2.9e+11p pd=2.58e+06u as=0p ps=0u w=1e+06u l=150000u
+.ends
