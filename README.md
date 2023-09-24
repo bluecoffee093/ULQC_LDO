@@ -19,6 +19,5 @@ IoT nodes often make use of time critical sensors, which need to switch to activ
 Apart from transient response, the amount of voltage undershoot or overshoot with reference to the regulated level is also a point of concern. If the output voltage deviates too much, it may cause the IoT node to underperform or even malfunction or shut down. Many IoT communication modules are extremely sensitive to supply voltage fluctuations, so minimizing undershoot/overshoot is also a critical design goal. For similar reasons, the LDO must also provide a high power supply rejection ratio (PSRR), since these modules are highly susceptible to noise-induced supply variations. 
 
 These major performance requirements of the LDO, including low dropout voltage, high output current, low no-load quiescent current, and small output transient undershoots and overshoots are difficult to achieve simultaneously. 
----
 
 Refer to [README](docs/source/index.rst) for this sample project documentation. 
