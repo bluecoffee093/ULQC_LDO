@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1639841760
+timestamp 1695673848
 << mvpsubdiff >>
 rect 345740 628255 345764 629032
 rect 371078 628255 371102 629032
@@ -969,9 +969,9 @@ rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
 use user_analog_proj_example  user_analog_proj_example_0
-timestamp 1639841760
+timestamp 1695673762
 transform 1 0 345668 0 -1 627114
-box -59 -22 25476 8324
+box 5008 7668 7940 9565
 << labels >>
 flabel metal3 s 583520 269230 584800 269342 0 FreeSans 1120 0 0 0 gpio_analog[0]
 port 0 nsew signal bidirectional
