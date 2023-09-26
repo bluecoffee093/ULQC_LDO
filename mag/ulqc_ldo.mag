@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1695554724
+timestamp 1695692044
 << locali >>
 rect 4277 -1001 4344 -931
 rect 4701 -1000 4768 -929
@@ -148,31 +148,31 @@ transform 1 0 5157 0 1 -1213
 box -211 -284 211 284
 << labels >>
 flabel metal1 4092 -917 4292 -717 0 FreeSans 256 0 0 0 VIN3
-port 4 nsew
+port 14 nsew
 flabel metal1 3480 -1722 3680 -1522 0 FreeSans 256 0 0 0 VOUT2
 port 11 nsew
 flabel metal1 4060 -1731 4260 -1531 0 FreeSans 256 0 0 0 VOUT3
-port 12 nsew
-flabel metal1 5113 -1727 5313 -1527 0 FreeSans 256 0 0 0 BGR_OUT
-port 8 nsew
-flabel metal1 4676 -1734 4876 -1534 0 FreeSans 256 0 0 0 EA_OUT
-port 9 nsew
-flabel metal1 2474 -1354 2674 -1154 0 FreeSans 256 0 0 0 VIN1
-port 2 nsew
-flabel metal1 3152 -1352 3352 -1152 0 FreeSans 256 0 0 0 VIN2
-port 3 nsew
-flabel metal1 3514 -876 3714 -676 0 FreeSans 256 0 0 0 ADJ
-port 5 nsew
-flabel metal1 2811 -845 3011 -645 0 FreeSans 256 0 0 0 BGRT1
-port 6 nsew
-flabel metal1 2810 -2542 3010 -2342 0 FreeSans 256 0 0 0 BGRT2
-port 7 nsew
-flabel metal1 2808 -1722 3008 -1522 0 FreeSans 256 0 0 0 VOUT1
-port 10 nsew
-flabel metal1 2442 -2106 2642 -1906 0 FreeSans 240 0 0 0 VSS1
-port 1 nsew
-flabel metal1 3162 -2114 3381 -1914 0 FreeSans 240 0 0 0 VSS2
 port 13 nsew
+flabel metal1 5113 -1727 5313 -1527 0 FreeSans 256 0 0 0 BGR_OUT
+port 4 nsew
+flabel metal1 4676 -1734 4876 -1534 0 FreeSans 256 0 0 0 EA_OUT
+port 6 nsew
+flabel metal1 2474 -1354 2674 -1154 0 FreeSans 256 0 0 0 VIN1
+port 10 nsew
+flabel metal1 3152 -1352 3352 -1152 0 FreeSans 256 0 0 0 VIN2
+port 12 nsew
+flabel metal1 3514 -876 3714 -676 0 FreeSans 256 0 0 0 ADJ
+port 1 nsew
+flabel metal1 2811 -845 3011 -645 0 FreeSans 256 0 0 0 BGRT1
+port 2 nsew
+flabel metal1 2810 -2542 3010 -2342 0 FreeSans 256 0 0 0 BGRT2
+port 3 nsew
+flabel metal1 2808 -1722 3008 -1522 0 FreeSans 256 0 0 0 VOUT1
+port 9 nsew
+flabel metal1 2442 -2106 2642 -1906 0 FreeSans 240 0 0 0 VSS1
+port 5 nsew
+flabel metal1 3162 -2114 3381 -1914 0 FreeSans 240 0 0 0 VSS2
+port 7 nsew
 flabel metal1 4112 -2540 4331 -2340 0 FreeSans 240 0 0 0 VSS3
-port 15 nsew
+port 8 nsew
 << end >>

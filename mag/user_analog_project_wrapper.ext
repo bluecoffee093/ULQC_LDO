@@ -1,0 +1,313 @@
+timestamp 1695690597
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use user_analog_project_wrapper_empty user_analog_project_wrapper_empty_0 1 0 0 0 1 0
+use user_analog_proj_example user_analog_proj_example_0 1 0 245230 0 1 578608
+use ulqc_ldo ulqc_ldo_0 1 0 -4393330 0 1 1242836
+node "m1_253028_586276#" 2 505679 253028 586276 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 191704892 1443984 11815296 27320 261775800 64956 0 0 0 0 0 0
+node "m1_17818_559410#" 0 345230 17818 559410 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 335682524 179780 67159216 364696 152844240 77168 0 0 0 0 0 0
+node "m1_248268_168380#" 2 562846 248268 168380 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 296296100 1555528 12137796 28280 158621432 50844 0 0 0 0 0 0
+node "m1_10326_499348#" 0 560033 10326 499348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108732464 139724 642958976 904208 52541804 30960 0 0 0 0 0 0
+node "m1_252462_587084#" 3 246817 252462 587084 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3659084 18828 334296052 496368 47271084 28912 0 0 0 0 0 0
+node "m1_61492_536482#" 6 265118 61492 536482 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2514920 22968 210525244 878568 34328880 23756 0 0 0 0 0 0
+node "m1_252188_590848#" 2 644459 252188 590848 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 892248 7844 958179568 1262748 107831644 51304 0 0 0 0 0 0
+node "m1_252910_587092#" 0 328031 252910 587092 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8419408 60276 503058700 330284 76615112 50460 0 0 0 0 0 0
+node "m1_247848_587460#" 3 147965 247848 587460 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2364064 15640 130020600 860876 26882944 20752 0 0 0 0 0 0
+node "m1_250940_592422#" 3 24246.8 250940 592422 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1040040 10796 88492984 742848 0 0 0 0 0 0 0 0
+node "m1_251288_646312#" 1 338366 251288 646312 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 240471532 846712 6625920 11408 35470872 24116 0 0 0 0 0 0
+node "m1_249328_587972#" 2 223668 249328 587972 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 181449828 373784 1738120 9908 70183424 49732 0 0 0 0 0 0
+node "m1_70014_587150#" 0 420476 70014 587150 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 446641740 534568 7237300 58636 40069236 26032 0 0 0 0 0 0
+node "m1_229230_586256#" 2 156006 229230 586256 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124109896 267780 764064 7060 44080460 41004 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_17818_559410#" "m1_229230_586256#" 459.934
+cap "m1_10326_499348#" "m1_248268_168380#" 2373.62
+cap "m1_249328_587972#" "m1_252188_590848#" 1359.48
+cap "m1_248268_168380#" "m1_61492_536482#" 459.906
+cap "m1_249328_587972#" "m1_250940_592422#" 185.668
+cap "m1_10326_499348#" "m1_252910_587092#" 0.110082
+cap "m1_229230_586256#" "m1_61492_536482#" 3.36651
+cap "m1_252462_587084#" "m1_251288_646312#" 949.027
+cap "m1_249328_587972#" "m1_70014_587150#" 28.2594
+cap "m1_252910_587092#" "m1_61492_536482#" 0.119403
+cap "m1_247848_587460#" "m1_251288_646312#" 10599.8
+cap "m1_17818_559410#" "m1_252188_590848#" 2010.44
+cap "m1_17818_559410#" "m1_250940_592422#" 13.6601
+cap "m1_247848_587460#" "m1_252462_587084#" 1182.68
+cap "m1_10326_499348#" "m1_252188_590848#" 9447.14
+cap "m1_17818_559410#" "m1_70014_587150#" 731.963
+cap "m1_61492_536482#" "m1_252188_590848#" 1922.82
+cap "m1_252910_587092#" "m1_251288_646312#" 4136.15
+cap "m1_10326_499348#" "m1_70014_587150#" 0.0176318
+cap "m1_229230_586256#" "m1_252462_587084#" 3061.29
+cap "m1_61492_536482#" "m1_70014_587150#" 38.2066
+cap "m1_252910_587092#" "m1_252462_587084#" 1098.09
+cap "m1_247848_587460#" "m1_248268_168380#" 236.299
+cap "m1_247848_587460#" "m1_229230_586256#" 3.20556
+cap "m1_10326_499348#" "m1_253028_586276#" 1.41203
+cap "m1_247848_587460#" "m1_252910_587092#" 827.131
+cap "m1_252188_590848#" "m1_251288_646312#" 1531.78
+cap "m1_248268_168380#" "m1_229230_586256#" 706.663
+cap "m1_61492_536482#" "m1_253028_586276#" 0.0472945
+cap "m1_250940_592422#" "m1_251288_646312#" 1635.37
+cap "m1_10326_499348#" "m1_17818_559410#" 21813.9
+cap "m1_252188_590848#" "m1_252462_587084#" 8712.58
+cap "m1_252910_587092#" "m1_229230_586256#" 13197.4
+cap "m1_17818_559410#" "m1_61492_536482#" 14024.2
+cap "m1_250940_592422#" "m1_252462_587084#" 2047.71
+cap "m1_247848_587460#" "m1_252188_590848#" 979.806
+cap "m1_10326_499348#" "m1_61492_536482#" 4589.54
+cap "m1_247848_587460#" "m1_250940_592422#" 2068.63
+cap "m1_249328_587972#" "m1_252462_587084#" 931.654
+cap "m1_247848_587460#" "m1_70014_587150#" 586.608
+cap "m1_229230_586256#" "m1_252188_590848#" 4867.45
+cap "m1_253028_586276#" "m1_252462_587084#" 415.485
+cap "m1_249328_587972#" "m1_247848_587460#" 755.403
+cap "m1_252910_587092#" "m1_252188_590848#" 133.213
+cap "m1_248268_168380#" "m1_70014_587150#" 614.101
+cap "m1_229230_586256#" "m1_70014_587150#" 1925.18
+cap "m1_252910_587092#" "m1_250940_592422#" 836.35
+cap "m1_17818_559410#" "m1_252462_587084#" 1.96176
+cap "m1_249328_587972#" "m1_229230_586256#" 3.52911
+cap "m1_61492_536482#" "m1_251288_646312#" 15.1244
+cap "m1_10326_499348#" "m1_252462_587084#" 240.119
+cap "m1_249328_587972#" "m1_252910_587092#" 4336.44
+cap "m1_61492_536482#" "m1_252462_587084#" 0.0488615
+cap "m1_252910_587092#" "m1_253028_586276#" 58.9197
+cap "m1_250940_592422#" "m1_252188_590848#" 1239.04
+cap "m1_17818_559410#" "m1_248268_168380#" 766.544
+cap "m1_252188_590848#" "m1_70014_587150#" 6105.49
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" 5.40907
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" 4.01663
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" 0.438422
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 0.00968127
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 0.846099
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 0.00359841
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 0.50917
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 0.103751
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 0.667553
+cap "user_analog_proj_example_0/ulqc_ldo_0/XM3/a_n175_n243#" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 0.302989
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" -2.84217e-14
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 0.0532632
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -5.58049
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 1.20413
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" -1.45711
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" 67.581
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" 0.213592
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -3.30769
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" 37.6117
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" -2.53318
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VIN1" -1.73743
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" -9.41231
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -0.00429792
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" -6.1354
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" -0.0268942
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -0.740183
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VIN1" -6.53111
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS2" 51.3215
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" -1.79274
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS2" 224.73
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 44.8151
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" 25.5837
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 0.0417224
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -2.20826
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" -7.31185
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" 3.6922
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -14.8994
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 252.642
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 4.88889
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" 55.9148
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 153.936
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" -0.0647925
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 44.2467
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 57.6147
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" -3.30769
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VIN3" 0.00145122
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -8.94669
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 586.337
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" 0.661961
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" 23.2742
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VSS2" 1.21756
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -13.9398
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 84.0474
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" 3.15622
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -0.00390077
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" 1.79893
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_proj_example_0/ulqc_ldo_0/VSS2" 5.05061
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" 5.13963
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" -0.0176318
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VSS2" 0.271359
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 0.431373
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -4.87776
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_proj_example_0/ulqc_ldo_0/VIN3" -1.5375
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 670.914
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" 9.88945
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" 0.629731
+cap "user_analog_proj_example_0/ulqc_ldo_0/XM3/a_n175_n243#" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" 0.171209
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -0.729087
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -5.44085
+cap "user_analog_proj_example_0/ulqc_ldo_0/XM3/a_n175_n243#" "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" 10.3439
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -0.199095
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" 0.019224
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -7.49742
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" 1.77636e-15
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" "user_analog_proj_example_0/ulqc_ldo_0/VIN1" 1.42109e-14
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -0.0119813
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -2.05201
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN2" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" 35.1556
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" 27.3782
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" -1.793
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" -0.678227
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -8.02351
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" 62.9587
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -0.05778
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" -0.8
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" 0.168522
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" -14.8835
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" -13.7228
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 0.000311436
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -4.70586
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -11.8094
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN2" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 48.7356
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN2" "user_analog_proj_example_0/ulqc_ldo_0/VSS2" -6.98525
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" -0.0348334
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -31.1297
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -44.8028
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/VSS1" -6.49843
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -2.99396
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VIN3" -3.73882
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -0.473185
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -4.60432
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 4.40077
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -15.7703
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -0.0597015
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" -0.564689
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" 0.00148097
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 0.0254088
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VIN2" 3.04891
+cap "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 0.0257335
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -8.66461
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -0.107576
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/VIN3" -0.120628
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -0.446037
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -7.85473
+cap "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" 0.319645
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -12.8552
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -0.188579
+cap "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" 0.00226932
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 20.4668
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" 68.5612
+cap "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" 0.278827
+cap "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" 0.125863
+cap "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_proj_example_0/ulqc_ldo_0/VSS3" -0.775397
+cap "user_analog_proj_example_0/ulqc_ldo_0/XM3/a_n175_n243#" "user_analog_proj_example_0/ulqc_ldo_0/VIN3" -0.295248
+cap "user_analog_project_wrapper_empty_0/io_clamp_low[2]" "user_analog_project_wrapper_empty_0/io_analog[6]" 28.661
+cap "user_analog_project_wrapper_empty_0/io_clamp_low[2]" "user_analog_project_wrapper_empty_0/io_analog[6]" 48.4223
+cap "user_analog_project_wrapper_empty_0/io_clamp_high[2]" "user_analog_project_wrapper_empty_0/io_analog[6]" 39.1723
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_clamp_high[2]" 37.911
+cap "user_analog_project_wrapper_empty_0/io_clamp_low[1]" "user_analog_project_wrapper_empty_0/io_analog[5]" 26.2488
+cap "user_analog_project_wrapper_empty_0/io_clamp_low[1]" "user_analog_project_wrapper_empty_0/io_analog[5]" 36.6569
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_clamp_high[1]" 34.8269
+cap "user_analog_project_wrapper_empty_0/io_clamp_high[1]" "user_analog_project_wrapper_empty_0/io_analog[5]" 28.0788
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 171.993
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 111.418
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_clamp_low[2]" 28.661
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 58.7373
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 90.1757
+cap "user_analog_project_wrapper_empty_0/io_clamp_low[2]" "user_analog_project_wrapper_empty_0/io_analog[6]" 48.4223
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_clamp_high[2]" 39.1723
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_clamp_high[2]" 42.5177
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 22.6201
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 6.8942
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 256.165
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 166.357
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 207.601
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 134.485
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 37.1785
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_clamp_low[1]" 26.2488
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 57.1704
+cap "user_analog_project_wrapper_empty_0/io_clamp_low[1]" "user_analog_project_wrapper_empty_0/io_analog[5]" 36.6569
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_clamp_high[1]" 34.8269
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 38.9778
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 25.2738
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_clamp_high[1]" 28.0788
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 149.168
+cap "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_project_wrapper_empty_0/io_analog[5]" 233.253
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 375.563
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 243.292
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 315.097
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 204.121
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 209.668
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_clamp_high[0]" 0.567637
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 134.856
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 304.658
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 470.294
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 42.7529
+cap "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_project_wrapper_empty_0/io_analog[4]" 78.2539
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 3.16402
+cap "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_project_wrapper_empty_0/io_analog[6]" 0.568367
+cap "user_analog_project_wrapper_empty_0/io_clamp_high[2]" "user_analog_project_wrapper_empty_0/io_analog[6]" 0.879457
+merge "ulqc_ldo_0/VSUBS" "user_analog_proj_example_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "user_analog_proj_example_0/VSUBS" "user_analog_project_wrapper_empty_0/VSUBS"
+merge "user_analog_project_wrapper_empty_0/VSUBS" "VSUBS"
+merge "user_analog_project_wrapper_empty_0/io_analog[6]" "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" -25771.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -431402 -3594 -209440 -3216 -43903088 -39976 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/BGR_OUT" "m1_252910_587092#"
+merge "user_analog_project_wrapper_empty_0/io_analog[10]" "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" -5097.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -39829 -800 0 0 -7036400 -12800 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/VOUT3" "m1_10326_499348#"
+merge "user_analog_project_wrapper_empty_0/io_analog[8]" "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" -8191.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 -557232 -5604 -14022400 -15600 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/VOUT1" "m1_70014_587150#"
+merge "user_analog_project_wrapper_empty_0/io_analog[9]" "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" -13796.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -42000 -820 -12033140 -9924 -17327008 -16908 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/VOUT2" "m1_61492_536482#"
+merge "user_analog_project_wrapper_empty_0/io_analog[4]" "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" -20908.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -401091 -3600 0 0 -35171712 -35044 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/BGRT1" "m1_249328_587972#"
+merge "user_analog_proj_example_0/ulqc_ldo_0/VSS3" "user_analog_project_wrapper_empty_0/vssd1" -17900.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -427824 -4274 0 0 -35600972 -27852 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/vssd1" "m1_253028_586276#"
+merge "user_analog_project_wrapper_empty_0/io_analog[5]" "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" -21998.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2606444 -9370 -652036 -5748 -24475220 -39822 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/BGRT2" "m1_229230_586256#"
+merge "user_analog_project_wrapper_empty_0/io_analog[1]" "user_analog_proj_example_0/ulqc_ldo_0/VIN1" -12537.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 -2671404 -18384 -17501008 -16988 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/VIN1" "m1_247848_587460#"
+merge "user_analog_proj_example_0/ulqc_ldo_0/VSS1" "user_analog_project_wrapper_empty_0/vssa1" -16877.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -404000 -3600 0 0 -33641472 -26752 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/vssa1" "m1_248268_168380#"
+merge "user_analog_proj_example_0/ulqc_ldo_0/VIN2" "m1_250940_592422#" -345.076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41152 -824 0 0 0 0 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/VSS2" "user_analog_project_wrapper_empty_0/vssa2" -13249.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43600 -836 -688800 -5600 -23592800 -23400 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/vssa2" "m1_17818_559410#"
+merge "user_analog_proj_example_0/ulqc_ldo_0/VIN3" "user_analog_project_wrapper_empty_0/vdda2" -18036.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -52320 -916 -2318400 -4200 -34118000 -27596 0 0 0 0 0 0
+merge "user_analog_project_wrapper_empty_0/vdda2" "m1_252188_590848#"
+merge "user_analog_project_wrapper_empty_0/io_analog[7]" "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" -9062.73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40000 -800 -520880 -5606 -13994400 -15596 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/EA_OUT" "m1_252462_587084#"
+merge "user_analog_project_wrapper_empty_0/io_analog[0]" "user_analog_proj_example_0/ulqc_ldo_0/ADJ" -16794.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9582306 -12332 -4969440 -6516 -20987600 -18292 0 0 0 0 0 0
+merge "user_analog_proj_example_0/ulqc_ldo_0/ADJ" "m1_251288_646312#"
