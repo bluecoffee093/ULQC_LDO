@@ -1,0 +1,133 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1698071038
+use sky130_fd_pr__pfet_01v8_lvt_S6HGXS  XM1
+timestamp 1697926798
+transform 0 1 25970 -1 0 -25188
+box -5355 -3062 5355 3062
+use sky130_fd_pr__pfet_01v8_lvt_S6HGXS  XM3
+timestamp 1697926798
+transform 0 1 19846 -1 0 -25188
+box -5355 -3062 5355 3062
+use sky130_fd_pr__nfet_01v8_lvt_L9PRSH  XM11
+timestamp 1698065204
+transform 1 0 8237 0 1 -24815
+box -558 -3088 558 3088
+use sky130_fd_pr__res_high_po_0p35_N5VAUY  XR1
+timestamp 1697926267
+transform 1 0 -612 0 1 -25268
+box -201 -2098 201 2098
+use sky130_fd_pr__res_high_po_0p35_N5VAUY  XR2
+timestamp 1697926267
+transform 1 0 -1017 0 1 -25268
+box -201 -2098 201 2098
+use sky130_fd_pr__res_high_po_0p35_N5VAUY  XR7
+timestamp 1697926267
+transform 1 0 -3465 0 1 -25268
+box -201 -2098 201 2098
+use sky130_fd_pr__res_high_po_0p35_WZDALF  XR8
+timestamp 1697926267
+transform 1 0 -3054 0 1 -25888
+box -201 -1478 201 1478
+use sky130_fd_pr__res_high_po_0p35_NBFPG6  XR9
+timestamp 1697926267
+transform 1 0 -2642 0 1 -24868
+box -201 -2498 201 2498
+use sky130_fd_pr__res_high_po_0p35_2QX5YR  XR10
+timestamp 1697926267
+transform 1 0 -2236 0 1 -24568
+box -201 -2798 201 2798
+use sky130_fd_pr__res_high_po_0p35_GF4C8W  XR11
+timestamp 1697926267
+transform 1 0 -1828 0 1 -24238
+box -201 -3128 201 3128
+use sky130_fd_pr__res_high_po_0p35_GMRRB5  XR12
+timestamp 1697926267
+transform 1 0 -1423 0 1 -24068
+box -201 -3298 201 3298
+use sky130_fd_pr__nfet_01v8_lvt_ERQKXW  sky130_fd_pr__nfet_01v8_lvt_ERQKXW_1
+timestamp 1697926798
+transform 1 0 1172 0 1 -37097
+box -5319 -3026 5319 3026
+use sky130_fd_pr__nfet_01v8_lvt_ERQKXW  sky130_fd_pr__nfet_01v8_lvt_ERQKXW_2
+timestamp 1697926798
+transform 1 0 1172 0 1 -30973
+box -5319 -3026 5319 3026
+use sky130_fd_pr__pfet_01v8_lvt_S6HGXS  sky130_fd_pr__pfet_01v8_lvt_S6HGXS_0
+timestamp 1697926798
+transform 0 1 13722 -1 0 -25188
+box -5355 -3062 5355 3062
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0 $PDKPATH/libs.ref/sky130_fd_pr/mag
+timestamp 1675710598
+transform 0 1 1889 -1 0 -24583
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_1
+timestamp 1675710598
+transform 0 1 289 -1 0 -24583
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_2
+timestamp 1675710598
+transform 0 1 289 -1 0 -26183
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_3
+timestamp 1675710598
+transform 0 1 1889 -1 0 -26183
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_4
+timestamp 1675710598
+transform 0 1 3489 -1 0 -26183
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_5
+timestamp 1675710598
+transform 0 1 3489 -1 0 -24583
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_6
+timestamp 1675710598
+transform 0 1 3489 -1 0 -22983
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_7
+timestamp 1675710598
+transform 0 1 1889 -1 0 -22983
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_8
+timestamp 1675710598
+transform 0 1 289 -1 0 -22983
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_9
+timestamp 1675710598
+transform 0 1 1889 -1 0 -21383
+box 0 0 1340 1340
+use sky130_fd_sc_hd__ebufn_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1675710598
+transform -1 0 3202 0 -1 -20377
+box -38 -48 774 592
+use sky130_fd_sc_hd__ebufn_1  x2
+timestamp 1675710598
+transform -1 0 2466 0 -1 -20377
+box -38 -48 774 592
+use sky130_fd_sc_hd__ebufn_1  x3
+timestamp 1675710598
+transform -1 0 994 0 -1 -20377
+box -38 -48 774 592
+use sky130_fd_sc_hd__ebufn_1  x4
+timestamp 1675710598
+transform -1 0 1730 0 -1 -20377
+box -38 -48 774 592
+use sky130_fd_sc_hd__nand2b_1  x5 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1675710598
+transform -1 0 4575 0 -1 -20377
+box -38 -48 498 592
+use sky130_fd_sc_hd__nand2b_1  x6
+timestamp 1675710598
+transform -1 0 4115 0 -1 -20377
+box -38 -48 498 592
+use sky130_fd_sc_hd__or2_1  x7 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1675710598
+transform -1 0 3655 0 -1 -20377
+box -38 -48 498 592
+use sky130_fd_sc_hd__nand2_1  x9 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1675710598
+transform -1 0 4851 0 -1 -20377
+box -38 -48 314 592
+<< end >>

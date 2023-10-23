@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1698071081
+use opamp  opamp_0
+timestamp 1698060894
+transform 1 0 4974 0 1 11572
+box -4974 -11574 6597 2562
+use power_transitor  power_transitor_0
+timestamp 1697921354
+transform 1 0 11816 0 1 185
+box -190 -187 22006 21493
+use spice_bandgap  spice_bandgap_0
+timestamp 1698071038
+transform 1 0 4147 0 1 54258
+box -4147 -40123 29032 -19833
+<< end >>
