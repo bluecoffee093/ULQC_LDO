@@ -1,4 +1,4 @@
-v {xschem version=3.1.0 file_version=1.2
+v {xschem version=3.4.2 file_version=1.2
 }
 G {}
 K {}
@@ -269,6 +269,18 @@ N -3560 -1340 -2900 -1340 {
 lab=VSS}
 N -3470 -2110 -2990 -2110 {
 lab=#net2}
+N -4440 -1810 -4440 -1770 {
+lab=VDD}
+N -4440 -1710 -4440 -1670 {
+lab=VSS}
+N -4350 -1800 -4350 -1770 {
+lab=BGRT1}
+N -4350 -1710 -4350 -1670 {
+lab=VSS}
+N -4280 -1800 -4280 -1770 {
+lab=BGRT2}
+N -4280 -1710 -4280 -1670 {
+lab=VSS}
 C {devices/lab_pin.sym} -3820 -1850 0 1 {name=p51 sig_type=std_logic lab=v1}
 C {devices/lab_pin.sym} -3580 -1850 0 1 {name=p52 sig_type=std_logic lab=v2}
 C {devices/lab_pin.sym} -3540 -1890 0 1 {name=p55 sig_type=std_logic lab=VSS}
@@ -446,3 +458,60 @@ C {sky130_stdcells/ebufn_8.sym} -3140 -1880 1 0 {name=x5 VGND=VGND VNB=VNB VPB=V
 C {sky130_stdcells/ebufn_8.sym} -3140 -1750 1 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/ebufn_8.sym} -3140 -1600 1 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {sky130_stdcells/ebufn_8.sym} -3140 -1450 1 0 {name=x8 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/vsource.sym} -4440 -1740 0 0 {name=V1 value=1.8}
+C {devices/lab_pin.sym} -4440 -1670 2 1 {name=p16 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} -4440 -1810 0 0 {name=p17 sig_type=std_logic lab=VDD}
+C {devices/vsource.sym} -4350 -1740 0 0 {name=V2 value=0}
+C {devices/lab_pin.sym} -4350 -1800 0 0 {name=p18 sig_type=std_logic lab=BGRT1}
+C {devices/lab_pin.sym} -4350 -1670 2 1 {name=p19 sig_type=std_logic lab=VSS}
+C {devices/vsource.sym} -4280 -1740 0 0 {name=V3 value=0}
+C {devices/lab_pin.sym} -4280 -1670 2 1 {name=p20 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} -4280 -1800 0 0 {name=p21 sig_type=std_logic lab=BGRT2}
+C {devices/code_shown.sym} -4180 -1810 0 0 {name=STIMULI only_toplevel=false value="
+.saveall
+.dc temp -40 120"}
+C {devices/code.sym} -4370 -2250 0 0 {name=TTTT_MODELS
+spice_ignore=false
+only_toplevel=true
+format="tcleval( @value )"
+value="
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_05v0_nvt__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__esd_nfet_01v8__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__esd_pfet_g5v0d10v5__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_g5v0d16v0__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_g5v0d10v5__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_g5v0d16v0__tt_discrete.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__esd_nfet_g5v0d10v5__tt.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.tech/ngspice/corners/tt/nonfet.spice"
+* Mismatch parameters
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_05v0_nvt__mismatch.corner.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice"
+* Resistor/Capacitor
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice"
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice"
+* Special cells
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice"
+* All models
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.tech/ngspice/all.spice"
+* Corner
+.include "~/mabrains/Analog_blocks/models/sky130A/libs.tech/ngspice/corners/tt/rf.spice"
+
+
+"}
