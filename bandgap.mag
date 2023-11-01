@@ -1,0 +1,183 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1697743948
+<< checkpaint >>
+rect -1271 -3231 7261 1756
+<< error_s >>
+rect 19738 414 19740 1702
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+use and_gate  and_gate_0
+timestamp 1697743944
+transform 1 0 -11 0 1 -371
+box 0 -1600 2004 867
+use and_gate  and_gate_1
+timestamp 1697743944
+transform 1 0 1993 0 1 -371
+box 0 -1600 2004 867
+use and_gate  and_gate_2
+timestamp 1697743944
+transform 1 0 3997 0 1 -371
+box 0 -1600 2004 867
+use not  not_0
+timestamp 1697743944
+transform 1 0 -11 0 1 2429
+box 0 -4400 528 791
+use not  not_1
+timestamp 1697743944
+transform 1 0 517 0 1 2429
+box 0 -4400 528 791
+use not  not_2
+timestamp 1697743944
+transform 1 0 1045 0 1 2429
+box 0 -4400 528 791
+use not  not_3
+timestamp 1697743944
+transform 1 0 1573 0 1 2429
+box 0 -4400 528 791
+use not  not_4
+timestamp 1697743944
+transform 1 0 2101 0 1 2429
+box 0 -4400 528 791
+use passgate_nlvt  x1
+timestamp 1697743944
+transform 1 0 -11 0 1 2029
+box 0 -4000 528 791
+use passgate_nlvt  x2
+timestamp 1697743944
+transform 1 0 517 0 1 2029
+box 0 -4000 528 791
+use passgate_nlvt  x3
+timestamp 1697743944
+transform 1 0 1045 0 1 2029
+box 0 -4000 528 791
+use passgate_nlvt  x4
+timestamp 1697743944
+transform 1 0 1573 0 1 2029
+box 0 -4000 528 791
+use not  x9
+timestamp 1697743944
+transform 1 0 22196 0 1 53780
+box 0 -4400 528 791
+use not  x15
+timestamp 1697743944
+transform 1 0 22724 0 1 53780
+box 0 -4400 528 791
+use not  x17
+timestamp 1697743944
+transform 1 0 23252 0 1 53780
+box 0 -4400 528 791
+use not  x18
+timestamp 1697743944
+transform 1 0 23780 0 1 53780
+box 0 -4400 528 791
+use not  x19
+timestamp 1697743944
+transform 1 0 24308 0 1 53780
+box 0 -4400 528 791
+use not  x20
+timestamp 1697743944
+transform 1 0 24836 0 1 53780
+box 0 -4400 528 791
+use and_gate  x22
+timestamp 1697743944
+transform 1 0 1163 0 1 2286
+box 0 -1600 2004 867
+use and_gate  x23
+timestamp 1697743944
+transform 1 0 3167 0 1 2286
+box 0 -1600 2004 867
+use and_gate  x24
+timestamp 1697743944
+transform 1 0 5171 0 1 2286
+box 0 -1600 2004 867
+use and_gate  x25
+timestamp 1697743944
+transform 1 0 7175 0 1 2286
+box 0 -1600 2004 867
+use sky130_fd_pr__pfet_01v8_lvt_B5ZT88  XM7
+timestamp 0
+transform 1 0 1143 0 1 49592
+box 0 0 1 1
+use sky130_fd_pr__pfet_01v8_lvt_B5ZT88  XM8
+timestamp 0
+transform 1 0 3482 0 1 49539
+box 0 0 1 1
+use sky130_fd_pr__nfet_01v8_lvt_2DGCRD  XM9
+timestamp 0
+transform 1 0 5821 0 1 49414
+box 0 0 1 1
+use sky130_fd_pr__nfet_01v8_lvt_2DGCRD  XM10
+timestamp 0
+transform 1 0 8160 0 1 49361
+box 0 0 1 1
+use sky130_fd_pr__pfet_01v8_lvt_B5ZT88  XM11
+timestamp 0
+transform 1 0 22195 0 1 49380
+box 0 0 1 1
+use sky130_fd_pr__nfet_01v8_lvt_A5ES5P  XM12
+timestamp 0
+transform 1 0 454 0 1 -496
+box 0 0 1 1
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  XQ4 $PDKPATH/libs.ref/sky130_fd_pr/mag
+array 0 7 1288 0 0 1288
+timestamp 1691438616
+transform 1 0 9356 0 1 388
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  XQ5
+timestamp 1691438616
+transform 1 0 19712 0 1 388
+box 0 0 1340 1340
+use sky130_fd_pr__rf_pnp_05v5_W3p40L3p40  XQ6
+timestamp 1691438616
+transform 1 0 941 0 1 -1971
+box 0 0 1340 1340
+use sky130_fd_pr__res_high_po_0p35_N5VAUY  XR1
+timestamp 0
+transform 1 0 -11 0 1 74
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_N5VAUY  XR2
+timestamp 0
+transform 1 0 338 0 1 21
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_N5VAUY  XR7
+timestamp 0
+transform 1 0 95 0 1 445
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_WZDALF  XR8
+timestamp 0
+transform 1 0 813 0 1 -281
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_NBFPG6  XR9
+timestamp 0
+transform 1 0 1162 0 1 686
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_2QX5YR  XR10
+timestamp 0
+transform 1 0 42 0 1 933
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_GF4C8W  XR11
+timestamp 0
+transform 1 0 391 0 1 1210
+box 0 0 1 1
+use sky130_fd_pr__res_high_po_0p35_GMRRB5  XR12
+timestamp 0
+transform 1 0 740 0 1 1327
+box 0 0 1 1
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 BGR_OUT
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VDD
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VSS
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 BGRT1
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 BGRT2
+port 4 nsew
+<< end >>
