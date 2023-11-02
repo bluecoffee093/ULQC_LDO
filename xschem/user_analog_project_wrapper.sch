@@ -16,7 +16,7 @@ lab=io_analog[7]}
 N 3610 -190 3670 -190 {
 lab=io_analog[3]}
 N 3970 -190 4030 -190 {
-lab=io_analog[6]}
+lab=io_analog[2]}
 C {devices/iopin.sym} 3240 -470 0 0 {name=p1 lab=vdda1}
 C {devices/iopin.sym} 3240 -440 0 0 {name=p2 lab=vdda2}
 C {devices/iopin.sym} 3240 -410 0 0 {name=p3 lab=vssa1}
@@ -49,10 +49,10 @@ C {devices/iopin.sym} 3250 500 0 0 {name=p30 lab=io_clamp_high[2:0]}
 C {devices/iopin.sym} 3250 530 0 0 {name=p31 lab=io_clamp_low[2:0]}
 C {devices/opin.sym} 3270 600 0 0 {name=p32 lab=user_irq[2:0]}
 C {devices/ipin.sym} 3290 210 0 0 {name=p28 lab=la_oenb[127:0]}
-C {ulqc_ldo.sym} 3820 -190 0 0 {name=x3}
 C {devices/lab_pin.sym} 4030 -170 0 1 {name=p33 sig_type=std_logic lab=io_analog[0]}
 C {devices/lab_pin.sym} 3610 -210 0 0 {name=p34 sig_type=std_logic lab=io_analog[4]}
 C {devices/lab_pin.sym} 3610 -190 0 0 {name=p35 sig_type=std_logic lab=io_analog[3]}
 C {devices/lab_pin.sym} 4030 -210 0 1 {name=p36 sig_type=std_logic lab=vssa1}
 C {devices/lab_pin.sym} 4030 -190 0 1 {name=p42 sig_type=std_logic lab=io_analog[2]}
 C {devices/lab_pin.sym} 3610 -170 0 0 {name=p43 sig_type=std_logic lab=io_analog[7]}
+C {ulqc_ldo.sym} 3820 -190 0 0 {name=x1}

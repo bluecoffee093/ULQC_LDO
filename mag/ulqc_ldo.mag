@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698945223
+timestamp 1698954266
 << metal2 >>
 rect -2065 15292 1910 15293
 rect 2502 15292 12324 15293
@@ -97,11 +97,11 @@ rect -702 -4293 280 -4292
 rect 34251 27068 42251 31068
 rect 42651 22784 50651 31068
 use opamp  opamp_0
-timestamp 1698945223
+timestamp 1698954266
 transform 1 0 4974 0 1 11572
 box -4984 -11574 6608 2262
 use power_transistor  power_transistor_0
-timestamp 1698945223
+timestamp 1698954266
 transform 1 0 12633 0 1 -2709
 box -938 -8491 38018 29797
 << labels >>

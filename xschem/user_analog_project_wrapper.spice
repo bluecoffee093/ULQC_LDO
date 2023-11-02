@@ -89,7 +89,7 @@
 *+ wbs_dat_o[31:0]:O la_data_in[127:0]:I la_data_out[127:0]:O io_in[26:0]:I io_in_3v3[26:0]:I user_clock2:I
 *+ io_out[26:0]:O io_oeb[26:0]:O gpio_analog[17:0]:B gpio_noesd[17:0]:B io_analog[10:0]:B io_clamp_high[2:0]:B
 *+ io_clamp_low[2:0]:B user_irq[2:0]:O la_oenb[127:0]:I
-x3 io_analog[4] vssa1 io_analog[3] io_analog[7] io_analog[2] io_analog[0] ulqc_ldo
+x1 io_analog[4] vssa1 io_analog[3] io_analog[7] io_analog[2] io_analog[0] ulqc_ldo
 .ends
 
 * expanding   symbol:  ulqc_ldo.sym # of pins=6
