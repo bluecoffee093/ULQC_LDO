@@ -89,26 +89,49 @@
 *+ wbs_dat_o[31:0]:O la_data_in[127:0]:I la_data_out[127:0]:O io_in[26:0]:I io_in_3v3[26:0]:I user_clock2:I
 *+ io_out[26:0]:O io_oeb[26:0]:O gpio_analog[17:0]:B gpio_noesd[17:0]:B io_analog[10:0]:B io_clamp_high[2:0]:B
 *+ io_clamp_low[2:0]:B user_irq[2:0]:O la_oenb[127:0]:I
-x3 io_analog[0] io_analog[4] io_analog[5] io_analog[6] vssa1 io_analog[7] vssa2 vssd1 io_analog[8]
-+ io_analog[1] io_analog[9] vdda1 io_analog[10] vdda2 ulqc_ldo
+x3 io_analog[4] vssa1 io_analog[3] io_analog[7] io_analog[2] io_analog[0] ulqc_ldo
 .ends
 
-* expanding   symbol:  ulqc_ldo.sym # of pins=14
+* expanding   symbol:  ulqc_ldo.sym # of pins=6
 ** sym_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/ulqc_ldo.sym
 ** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/ulqc_ldo.sch
-.subckt ulqc_ldo ADJ BGRT1 BGRT2 BGR_OUT VSS1 EA_OUT VSS2 VSS3 VOUT1 VIN1 VOUT2 VIN2 VOUT3 VIN3
-*.PININFO VSS1:I VIN1:I VIN2:I VIN3:I ADJ:I BGRT1:I BGRT2:I BGR_OUT:O EA_OUT:O VOUT1:O VOUT2:O
-*+ VOUT3:O VSS2:I VSS3:I
-XM1 VOUT1 BGRT2 VSS1 VSS1 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
-XM2 VOUT1 BGRT1 VIN1 VIN1 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
-XM3 VOUT2 ADJ VSS2 VSS1 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
-XM4 VOUT2 ADJ VIN2 VIN2 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
-XM5 VOUT3 VSS3 VSS3 VSS1 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
-XM6 VOUT3 VIN3 VIN3 VIN3 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
-XM7 EA_OUT VSS3 VSS3 VSS1 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
-XM8 EA_OUT VIN3 VIN3 VIN3 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
-XM9 BGR_OUT VSS3 VSS3 VSS1 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
-XM10 BGR_OUT VIN3 VIN3 VIN3 sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+.subckt ulqc_ldo VIN VSS ADJ BGR_IN EA_OUT OUT
+*.PININFO VIN:I VSS:B ADJ:I BGR_IN:I EA_OUT:O OUT:O
+x1 ADJ BGR_IN VSS VIN EA_OUT net1 opamp
+x2 VIN EA_OUT net1 OUT power_transistor
+.ends
+
+
+* expanding   symbol:  opamp.sym # of pins=6
+** sym_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/opamp.sym
+** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/opamp.sch
+.subckt opamp POS NEG VSS VDD EA_OUT BIAS_CUR
+*.PININFO POS:I NEG:I VDD:B VSS:B BIAS_CUR:I EA_OUT:O
+XM3 POS_D POS_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM4 NEG_D NEG_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM5 NEG_2 NEG_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM7 EA_OUT POS_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM9 NEG_D NEG P1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=8 nf=1 m=4
+XM10 POS_D POS P1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=8 nf=1 m=4
+XM11 BIAS_CUR BIAS_CUR VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1 m=8
+XM12 P1 BIAS_CUR VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1 m=8
+XM13 NEG_2 NEG_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.3 W=5 nf=1 m=6
+XM1 P1 VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt L=0.15 W=10 nf=1 m=300
+XM2 EA_OUT NEG_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.3 W=5 nf=1 m=6
+XM6 P1 VSS VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1 m=2
+XM8 NEG_D P1 P1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=8 nf=1 m=2
+XM14 NEG_D VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=2
+XM15 POS_D VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=2
+.ends
+
+
+* expanding   symbol:  power_transistor.sym # of pins=4
+** sym_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/power_transistor.sym
+** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/power_transistor.sch
+.subckt power_transistor VDD EA_OUT BIAS_CURR OUT
+*.PININFO VDD:I EA_OUT:I OUT:O BIAS_CURR:O
+XM1 BIAS_CURR EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=60
+XM2 OUT EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=5310
 .ends
 
 .end

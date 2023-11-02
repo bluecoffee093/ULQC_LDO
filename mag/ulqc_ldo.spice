@@ -1,4 +1,4 @@
-* NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130A
+* NGSPICE file created from ulqc_ldo.ext - technology: sky130A
 
 .subckt sky130_fd_pr__pfet_01v8_KPD88M w_n785_n300# a_15_n200# a_n561_n200# a_n177_n200#
 + a_111_n200# a_n129_n297# a_n513_n297# a_n609_231# a_n273_n200# a_63_n297# a_n749_n200#
@@ -1644,13 +1644,8 @@ Xsky130_fd_pr__nfet_01v8_2J7QF2_0 NEG_2 VSS EA_OUT EA_OUT NEG_2 VSS NEG_2 VSS VS
 + NEG_2 VSS sky130_fd_pr__nfet_01v8_2J7QF2
 .ends
 
-.subckt ulqc_ldo VIN VSS ADJ BGR_IN OUT EA_OUT
+.subckt ulqc_ldo VIN VSS ADJ BGR_IN EA_OUT OUT
 Xpower_transistor_0 VIN EA_OUT opamp_0/BIAS_CUR OUT power_transistor
 Xopamp_0 ADJ BGR_IN VSS VIN EA_OUT opamp_0/BIAS_CUR opamp
-.ends
-
-.subckt user_analog_project_wrapper
-Xulqc_ldo_0 ulqc_ldo_0/VIN VSUBS ulqc_ldo_0/ADJ ulqc_ldo_0/BGR_IN ulqc_ldo_0/OUT ulqc_ldo_0/EA_OUT
-+ ulqc_ldo
 .ends
 

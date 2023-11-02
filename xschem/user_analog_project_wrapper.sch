@@ -1,10 +1,22 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.1.0 file_version=1.2
 }
 G {}
 K {}
 V {}
 S {}
 E {}
+N 3970 -210 4030 -210 {
+lab=vssa1}
+N 3610 -210 3670 -210 {
+lab=io_analog[4]}
+N 3970 -170 4030 -170 {
+lab=io_analog[0]}
+N 3610 -170 3670 -170 {
+lab=io_analog[7]}
+N 3610 -190 3670 -190 {
+lab=io_analog[3]}
+N 3970 -190 4030 -190 {
+lab=io_analog[6]}
 C {devices/iopin.sym} 3240 -470 0 0 {name=p1 lab=vdda1}
 C {devices/iopin.sym} 3240 -440 0 0 {name=p2 lab=vdda2}
 C {devices/iopin.sym} 3240 -410 0 0 {name=p3 lab=vssa1}
@@ -37,18 +49,10 @@ C {devices/iopin.sym} 3250 500 0 0 {name=p30 lab=io_clamp_high[2:0]}
 C {devices/iopin.sym} 3250 530 0 0 {name=p31 lab=io_clamp_low[2:0]}
 C {devices/opin.sym} 3270 600 0 0 {name=p32 lab=user_irq[2:0]}
 C {devices/ipin.sym} 3290 210 0 0 {name=p28 lab=la_oenb[127:0]}
-C {/foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/ulqc_ldo.sym} 3820 -200 0 0 {name=x3}
-C {devices/lab_pin.sym} 3670 -280 0 0 {name=p33 sig_type=std_logic lab=io_analog[0]}
-C {devices/lab_pin.sym} 3670 -260 0 0 {name=p34 sig_type=std_logic lab=io_analog[4]}
-C {devices/lab_pin.sym} 3670 -240 0 0 {name=p35 sig_type=std_logic lab=io_analog[5]}
-C {devices/lab_pin.sym} 3670 -220 0 0 {name=p36 sig_type=std_logic lab=vssa1}
-C {devices/lab_pin.sym} 3670 -200 0 0 {name=p37 sig_type=std_logic lab=vssa2}
-C {devices/lab_pin.sym} 3670 -180 0 0 {name=p38 sig_type=std_logic lab=vssd1}
-C {devices/lab_pin.sym} 3670 -160 0 0 {name=p39 sig_type=std_logic lab=io_analog[1]}
-C {devices/lab_pin.sym} 3670 -140 0 0 {name=p40 sig_type=std_logic lab=vdda1}
-C {devices/lab_pin.sym} 3670 -120 0 0 {name=p41 sig_type=std_logic lab=vdda2}
-C {devices/lab_pin.sym} 3970 -280 0 1 {name=p42 sig_type=std_logic lab=io_analog[6]}
-C {devices/lab_pin.sym} 3970 -260 0 1 {name=p43 sig_type=std_logic lab=io_analog[7]}
-C {devices/lab_pin.sym} 3970 -240 0 1 {name=p44 sig_type=std_logic lab=io_analog[8]}
-C {devices/lab_pin.sym} 3970 -220 0 1 {name=p45 sig_type=std_logic lab=io_analog[9]}
-C {devices/lab_pin.sym} 3970 -200 0 1 {name=p46 sig_type=std_logic lab=io_analog[10]}
+C {ulqc_ldo.sym} 3820 -190 0 0 {name=x3}
+C {devices/lab_pin.sym} 4030 -170 0 1 {name=p33 sig_type=std_logic lab=io_analog[0]}
+C {devices/lab_pin.sym} 3610 -210 0 0 {name=p34 sig_type=std_logic lab=io_analog[4]}
+C {devices/lab_pin.sym} 3610 -190 0 0 {name=p35 sig_type=std_logic lab=io_analog[3]}
+C {devices/lab_pin.sym} 4030 -210 0 1 {name=p36 sig_type=std_logic lab=vssa1}
+C {devices/lab_pin.sym} 4030 -190 0 1 {name=p42 sig_type=std_logic lab=io_analog[2]}
+C {devices/lab_pin.sym} 3610 -170 0 0 {name=p43 sig_type=std_logic lab=io_analog[7]}

@@ -1,9 +1,0 @@
-magic
-tech sky130A
-magscale 1 2
-timestamp 1695692044
-use ulqc_ldo  ulqc_ldo_0
-timestamp 1695692044
-transform 1 0 2566 0 1 10210
-box 2442 -2542 5374 -645
-<< end >>

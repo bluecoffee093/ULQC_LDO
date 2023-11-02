@@ -1,0 +1,40 @@
+** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/ulqc_ldo.sch
+.subckt ulqc_ldo VIN VSS ADJ BGR_IN EA_OUT OUT
+*.PININFO VIN:I VSS:B ADJ:I BGR_IN:I EA_OUT:O OUT:O
+x1 ADJ BGR_IN VSS VIN EA_OUT net1 opamp
+x2 VIN EA_OUT net1 OUT power_transistor
+.ends
+
+* expanding   symbol:  opamp.sym # of pins=6
+** sym_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/opamp.sym
+** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/opamp.sch
+.subckt opamp POS NEG VSS VDD EA_OUT BIAS_CUR
+*.PININFO POS:I NEG:I VDD:B VSS:B BIAS_CUR:I EA_OUT:O
+XM3 POS_D POS_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM4 NEG_D NEG_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM5 NEG_2 NEG_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM7 EA_OUT POS_D VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=6
+XM9 NEG_D NEG P1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=8 nf=1 m=4
+XM10 POS_D POS P1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=8 nf=1 m=4
+XM11 BIAS_CUR BIAS_CUR VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1 m=8
+XM12 P1 BIAS_CUR VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1 m=8
+XM13 NEG_2 NEG_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.3 W=5 nf=1 m=6
+XM1 P1 VSS VSS VSS sky130_fd_pr__nfet_01v8_lvt L=0.15 W=10 nf=1 m=300
+XM2 EA_OUT NEG_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.3 W=5 nf=1 m=6
+XM6 P1 VSS VSS VSS sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1 m=2
+XM8 NEG_D P1 P1 VSS sky130_fd_pr__nfet_01v8 L=0.5 W=8 nf=1 m=2
+XM14 NEG_D VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=2
+XM15 POS_D VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=2
+.ends
+
+
+* expanding   symbol:  power_transistor.sym # of pins=4
+** sym_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/power_transistor.sym
+** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/power_transistor.sch
+.subckt power_transistor VDD EA_OUT BIAS_CURR OUT
+*.PININFO VDD:I EA_OUT:I OUT:O BIAS_CURR:O
+XM1 BIAS_CURR EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=60
+XM2 OUT EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=5310
+.ends
+
+.end
