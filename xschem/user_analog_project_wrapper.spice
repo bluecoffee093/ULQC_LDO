@@ -130,8 +130,8 @@ XM15 POS_D VDD VDD VDD sky130_fd_pr__pfet_01v8 L=0.3 W=5 nf=1 m=2
 ** sch_path: /foss/designs/ulqc_ldo/repo/ULQC_LDO/xschem/power_transistor.sch
 .subckt power_transistor VDD EA_OUT BIAS_CURR OUT
 *.PININFO VDD:I EA_OUT:I OUT:O BIAS_CURR:O
-XM1 BIAS_CURR EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=60
-XM2 OUT EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=5310
+XM1 BIAS_CURR EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=2
+XM2 OUT EA_OUT VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 m=5398
 .ends
 
 .end

@@ -16,7 +16,7 @@ Class power_transistor (0):  Merged 5398 parallel devices.
 Subcircuit summary:
 Circuit 1: power_transistor                |Circuit 2: power_transistor                
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (5400->2)          |sky130_fd_pr__pfet_01v8 (5370->2)          
+sky130_fd_pr__pfet_01v8 (5400->2)          |sky130_fd_pr__pfet_01v8 (5400->2)          
 Number of devices: 2                       |Number of devices: 2                       
 Number of nets: 4                          |Number of nets: 4                          
 ---------------------------------------------------------------------------------------

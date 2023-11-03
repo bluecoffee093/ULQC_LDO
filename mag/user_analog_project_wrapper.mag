@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698954266
+timestamp 1699006903
 << metal2 >>
 rect 413400 691600 418400 691610
 rect 393300 687300 413400 691600
@@ -778,7 +778,7 @@ rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
 use ulqc_ldo  ulqc_ldo_0
-timestamp 1698954266
+timestamp 1699006903
 transform 1 0 403099 0 1 586230
 box -2065 -11200 50651 31068
 << labels >>
