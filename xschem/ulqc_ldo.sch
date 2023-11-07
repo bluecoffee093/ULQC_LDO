@@ -6,7 +6,7 @@ V {}
 S {}
 E {}
 N 370 -250 410 -250 {
-lab=VDD}
+lab=VIN}
 N 370 -230 410 -230 {
 lab=VSS}
 N 510 -340 570 -340 {
@@ -20,7 +20,7 @@ lab=ADJ}
 N 320 -310 350 -310 {
 lab=BGR_IN}
 N 360 -250 370 -250 {
-lab=VDD}
+lab=VIN}
 N 390 -210 390 -180 {
 lab=#net1}
 N 410 -180 610 -180 {
@@ -45,7 +45,6 @@ N 650 -430 650 -410 {
 lab=VIN}
 N 360 -230 370 -230 {
 lab=VSS}
-C {opamp.sym} 430 -340 0 0 {name=x1}
 C {devices/title.sym} 170 -50 0 0 {name=l1 author="Yash Agrawal"}
 C {devices/lab_pin.sym} 360 -250 0 0 {name=p1 sig_type=std_logic lab=VIN}
 C {devices/lab_pin.sym} 360 -230 0 0 {name=p4 sig_type=std_logic lab=VSS}
@@ -74,3 +73,4 @@ C {devices/lab_pin.sym} 650 -430 1 0 {name=p13 sig_type=std_logic lab=VIN
 }
 C {devices/lab_pin.sym} 730 -340 0 1 {name=p14 sig_type=std_logic lab=OUT}
 C {power_transistor.sym} 730 -330 0 0 {name=x2}
+C {error_amplifier.sym} 430 -340 0 0 {name=x1}

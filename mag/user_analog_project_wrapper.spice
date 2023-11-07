@@ -1589,7 +1589,7 @@ X10 a_679_n500# a_619_n526# a_561_n500# VSUBS sky130_fd_pr__nfet_01v8 ad=1.45e+1
 X11 a_443_n500# a_383_n526# a_325_n500# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=300000u
 .ends
 
-.subckt opamp POS NEG VSS VDD EA_OUT BIAS_CUR
+.subckt error_amplifier POS NEG VSS VDD EA_OUT BIAS_CUR
 Xsky130_fd_pr__nfet_01v8_lvt_A3UXRA_0 VSS VSS VSS P1 VSS VSS VSS P1 VSS VSS P1 VSS
 + VSS VSS VSS VSS VSS VSS VSS VSS VSS VSS VSS VSS P1 VSS VSS VSS VSS VSS VSS P1 VSS
 + VSS VSS P1 VSS P1 VSS VSS VSS P1 VSS VSS P1 VSS P1 P1 P1 VSS P1 VSS P1 VSS VSS P1
@@ -1637,8 +1637,8 @@ Xsky130_fd_pr__nfet_01v8_2J7QF2_0 NEG_2 VSS EA_OUT EA_OUT NEG_2 VSS NEG_2 VSS VS
 .ends
 
 .subckt ulqc_ldo VIN VSS ADJ BGR_IN EA_OUT OUT
-Xpower_transistor_0 VIN EA_OUT opamp_0/BIAS_CUR OUT power_transistor
-Xopamp_0 ADJ BGR_IN VSS VIN EA_OUT opamp_0/BIAS_CUR opamp
+Xpower_transistor_0 VIN EA_OUT error_amplifier_0/BIAS_CUR OUT power_transistor
+Xerror_amplifier_0 ADJ BGR_IN VSS VIN EA_OUT error_amplifier_0/BIAS_CUR error_amplifier
 .ends
 
 .subckt user_analog_project_wrapper vdda1 vdda2 vssa1 vssa2 vccd1 vccd2 vssd1 vssd2
